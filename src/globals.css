@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-70px);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
