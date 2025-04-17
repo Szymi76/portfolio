@@ -31,6 +31,9 @@ const App = () => {
           </p>
           <Button
             endContent={<Download size={18} />}
+            as={Link}
+            href="/portfolio/cv.pdf"
+            download="CV_szymon_krupa"
             size="lg"
             className="bg-violet-600 text-white lg:max-w-[300px]"
           >

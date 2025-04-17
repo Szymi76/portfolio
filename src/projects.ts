@@ -1,5 +1,7 @@
 import { Project } from "./types";
 
+const URL_PREFIX = "portfolio/";
+
 const chips = {
   react: { label: "React", className: "bg-blue-500 text-white" },
   redux: { label: "Redux", className: "bg-purple-500 text-white" },
@@ -29,7 +31,7 @@ export const projects: Project[] = [
     chips: [chips.react, chips.typescript, chips.next, chips.styledComponents],
     repoURL: "https://github.com/Szymi76/Postify_Social-Media-App",
     demoURL: "https://postify-three-coral.vercel.app/",
-    imageURL: "websites/website_postify.png",
+    imageURL: URL_PREFIX + "website_postify.png",
   },
   {
     title: "Chat online",
@@ -44,7 +46,7 @@ export const projects: Project[] = [
     ],
     repoURL: "https://github.com/Szymi76/sendit",
     demoURL: "https://sendit-9i5p.onrender.com/#/chat",
-    imageURL: "websites/website_sendit.png",
+    imageURL: URL_PREFIX + "website_sendit.png",
   },
   {
     title: "Forum internetowe",
@@ -58,7 +60,7 @@ export const projects: Project[] = [
       chips.node,
     ],
     repoURL: "https://github.com/Szymi76/stackcode",
-    imageURL: "websites/website_stackcode.png",
+    imageURL: URL_PREFIX + "website_stackcode.png",
   },
   {
     title: "Gry przeglądarkowe",
@@ -66,7 +68,7 @@ export const projects: Project[] = [
     chips: [chips.react, chips.typescript, chips.heroUI, chips.zustand],
     repoURL: "https://github.com/Szymi76/offline-games-react-app",
     demoURL: "https://offline-games-react-app.vercel.app/",
-    imageURL: "websites/website_offline-games.png",
+    imageURL: URL_PREFIX + "website_offline-games.png",
   },
   {
     title: "Ankiety online",
@@ -82,7 +84,7 @@ export const projects: Project[] = [
     ],
     repoURL: "https://github.com/Szymi76/survey-app",
     demoURL: "https://ankieta-na-teraz.onrender.com/",
-    imageURL: "websites/website_survey-app.png",
+    imageURL: URL_PREFIX + "website_survey-app.png",
   },
   {
     title: "Frontendmentor Challenges",
@@ -90,6 +92,6 @@ export const projects: Project[] = [
       "Wyzwania polegające na odwzorowywaniu stron na podstawie ich designów.",
     chips: [chips.react, chips.tailwindCss, chips.sass],
     repoURL: "https://github.com/Szymi76/frontendmentor",
-    imageURL: "websites/website_frontendmentor.png",
+    imageURL: URL_PREFIX + "website_frontendmentor.png",
   },
 ];
